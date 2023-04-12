@@ -9,7 +9,7 @@ const Counter2 = ({ number2, onIncrease2 }) => {
   return (
     <div>
       <hr />
-      <h1>수정입니다.</h1>
+      <h1>수정입니다. 맞겠죠?</h1>
       <div>
         <button onClick={() => onIncrease2(num)}>+</button>
         <input type="text" onChange={onChange} value={num}></input>
